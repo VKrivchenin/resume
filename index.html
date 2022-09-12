@@ -7,98 +7,104 @@
     <meta name="keywords" content="Кривченин В. В., резюме">
     <meta name="description" content="Это сайт - резюме Василия Кривченина">
     <title>Резюме Кривченин В. В.</title>
-    <style>
-        .fit-picture {
-            width: 150px; }
+    <link rel="stylesheet" href="styles.css">
 
-    </style>
 </head>
 
 <body>
-<header id="header"class="header">
-    <IMG src="icon.png" alt="Фото" class="fit-picture" >
+    <div class="container">
+        
+        <div id="block1" class="info">
+            
+            <IMG src="icon.png" alt="Фото" class="pic" >
+            
+            <div class="info-text">
+                
+                <H1>Василий Кривченин</H1>
+                
+                <P>Я имею <strong>высшее техническое образование</strong> в настоящее время <strong> работаю по специальности</strong>.</P>
 
-    <H1>Василий Кривченин</H1>
-</header>
+                <p>Я прохожу обучающий курс: <em>HTML & CSS - это первый шаг чтобы стать IT-разработчиком,</em> в онлайн школе <strong>Result School</strong>.</p>
+                
+            </div>
+        </div>
 
-<section>
-    <article id="block1" class="card">
-        <P>Я имею <strong>высшее техническое образование</strong> в настоящее время <strong> работаю по специальности</strong>.</P>
+        <div id="dlock2" class="card">
+            
+            <h2>Опыт работы</h2>
 
-        <p>Я прохожу обучающий курс: <em>HTML & CSS - это первый шаг чтобы стать IT-разработчиком,</em> в онлайн школе <strong>Result School</strong>.</p>
-    </article>
+            <table width="500">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Период</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Работодатель # 1</td>
+                        <td>Должность # 1</td>
+                        <td>2005-2007</td>
+                    </tr>
+                    <tr>
+                        <td>Работодатель # 2</td>
+                        <td>Должность # 2</td>
+                        <td>2007-2010</td>
+                    </tr>
+                    <tr>
+                        <td>Работодатель # 3</td>
+                        <td>Должность # 3</td>
+                        <td>2010-сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="block3" class="card">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li> Познавать новое </li>
+                <li> Мастерить руками </li>
+            </ul>
+        </div>
+        
+        <div id="fedback" class="fedback">
+            
+            <h3>Связаться со мной</h3>
 
-    <article id="dlock2" class="card">
-        <h2>Опыт работы</h2>
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+            
+            <div>
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
 
-        <table width="500">
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Период</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Работодатель # 1</td>
-                    <td>Должность # 1</td>
-                    <td>2005-2007</td>
-                </tr>
-                <tr>
-                    <td>Работодатель # 2</td>
-                    <td>Должность # 2</td>
-                    <td>2007-2010</td>
-                </tr>
-                <tr>
-                    <td>Работодатель # 3</td>
-                    <td>Должность # 3</td>
-                    <td>2010-сейчас</td>
-                </tr>
-            </tbody>
-        </table>
-    </article>
+            <div>
+                <label for="massage">Ваше сообщение:</label>
+                <br>
+                <textarea id="massage" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
 
-    <article id="block3" class="card">
-        <h3>Мои хобби</h3>
+            <button type="submit" class="btn">Отправить!</button>
 
-        <ul>
-            <li> Познавать новое </li>
-            <li> Мастерить руками </li>
-        </ul>
-    </article>
-</section>
+        </div>
 
-<article id="fedback" class="fedback">
-    <h2>Связаться со мной</h2>
-
-    <div>
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
+        <div id="footer" class="footer">
+            <hr>
+        
+            <h4> Список социальных сетей </h4>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="Иконка телеграмма" class="telegram">
+            <a href="https://t.me/VKrivchenin" target="_blank" >Telegram</a>
+        </div>
     </div>
-    
-    <div>
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-
-    <div>
-        <label for="massage">Ваше сообщение:</label>
-        <br>
-        <textarea id="massage" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-    </div>
-
-    <button type="submit">Отправить форму</button>
-</article>
-
-<footer id="footer" class="footer">
-    <hr>
-
-    <h4> Список социальных сетей </h4>
-    
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png" alt="Иконка телеграмма" width="20">
-    <a href="https://t.me/VKrivchenin" target="_blank" >Telegram</a>
-</footer>
 </body>
+
+
+
 
 </html>
