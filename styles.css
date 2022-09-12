@@ -78,6 +78,12 @@ a:active {
     color:blue;
 }
 
-a:visited{
+a:visited {
     color: grey
+}
+
+.tab {
+    text-align: center;
+    width: 100%;
+    height: 150px;
 }
